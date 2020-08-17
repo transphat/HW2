@@ -1,52 +1,85 @@
 <!doctype html>
-<html lang="en">
-</html>    
-  <head>
+<html lang="en">    
+  <head>    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!-- Our custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio</title>
   </head>
-  <body>
-    <h1>Dung Tran</h1>
 
-    <!-- Creating a grid with 12 col 3 row -->
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            1 of 2
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Dung Tran</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                 <a class="nav-link" href="file://Users/dungtran/development/hw2/index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                 <a class="nav-link" href="file://Users/dungtran/development/hw2/portfolio.html">Portfolio</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="file://Users/dungtran/development/hw2/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Jumbotron-->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+          <div class="col-xs-12 col-sm12 col-md-9 col-lg-9 col-xl-10">
+          </div>
+    <!-- Welcome Text -->
+    <div class="container-fluid padding">
+     <div class="row welcome text-center">
+          <div class="col-12"
+                <h1 class="display-4">A Virtual Blueprint</h1>
+          </div> 
+          <hr>
+          <div class="col-12">
+            <p class="lead">Welcome to my Virtual Blueprint. I've applied both my knowledge of Art History and Full Stack Development skills when creating projects. My objective is to create a minimal space that is highly emotive and thought provoking.
+            </p>
+          </div>
+     <!-- Three Column Section -->
+     <div class="container-fluid padding">
+      <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <i class="fas fa code"></i></i>
+            </div>
+       </div>
+     </div>
             <div class="media">
-                <img class="align-self-start mr-3" src="..." alt="Generic placeholder image">
+                <img class="d-flex mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="Generic placeholder image">
+            
                 <div class="media-body">
-                  <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                  <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <h5 class="mt-0 font-weight-bold"></h5>
+                  I was born in Vietnam- I emigrated to the US when I was seven years old and I've lived in NYC ever since. I majored in Art History and minor in History. My transition to web development is my curiosity and desire to learn a new language in this new age.</p>
+                  <p>I enjoy traveling and watching documentaries that offer insight on truths and narratives beyond the pages of textbooks.</p>
                 </div>
-              </div>  
-          </div>
-          <div class="col">
-            2 of 2
-          </div>
+              </div>
         </div>
         <div class="row">
           <div class="col">
-            1 of 3
+            
           </div>
           <div class="col">
-            2 of 3
+            
           </div>
           <div class="col">
-            3 of 3
+            
             <div class="media">
-                <img class="align-self-end mr-3" src="..." alt="Generic placeholder image">
-                <div class="media-body">
-                  <h5 class="mt-0">Bottom-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                  <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
               </div>
           </div>
@@ -58,5 +91,23 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- Footer -->
+    <footer>
+    <div class="container-fluid padding">
+    <div class="row text-center">
+        <div class="col-md-4">
+          <hr class="light">
+          <p> 212-333-4444</p>
+          <p>trankhadung@gmail.com</p>
+          <p>123 5th Ave</p>
+          <p>New York, NY 10001</p>
+        </div>
+        <div class="col-12"
+        <hr class="light">
+        <hr5></hr5>
+
+    </div>
+    </footer>
   </body>
 </html>
